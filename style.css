@@ -1,0 +1,36 @@
+.numbers, #sumLabel, #sum-el
+{
+    text-decoration: underline;
+}
+
+.numContainer
+{
+    display: flex;
+    justify-content: center;
+}
+
+.numbers{
+    padding: 12px 12px;
+}
+
+.sumContainer
+{
+    display: flex;
+    justify-content: center;
+}
+
+#btnContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px;
+}
+
+.btn
+{
+    display: block;
+    margin: 4px 25px;
+    padding: 4px 8px;
+    cursor: pointer;
+}

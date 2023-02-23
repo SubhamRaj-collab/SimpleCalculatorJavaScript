@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+    
+    <div class="numContainer">
+        <span class="numbers"><input type="text" id="num1-el" placeholder="8"></span>
+        <span class="numbers"><input type="text" id="num2-el" placeholder="2"></span>
+    </div>
+
+    <div id="btnContainer">
+        <button class="btn" onclick="doSum();">Add</button>
+        <button class="btn" onclick="doSubtract();">Subtract</button>
+        <button class="btn" onclick="doDivide();">Divide</button>
+        <button class="btn" onclick="doMultiply();">Multiply</button>
+    </div>
+
+    <div class="sumContainer">
+        <span id="sum-el">Sum: </span>
+    </div>
+
+    <script src="/script.js"></script>
+    
+</body>
+</html>
